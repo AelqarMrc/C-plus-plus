@@ -27,6 +27,7 @@ float Complex::Norm(void) const{
 }
 
 int main() {
+    Complex c0;
     Complex c1;
     Complex c2(1.f);
     Complex c3(2.f, 3.f);
