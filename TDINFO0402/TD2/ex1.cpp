@@ -35,7 +35,7 @@ class B: public A1 {
         return *this;
     }
     //EXERCICE 1.9
-    std::ostream& operator<<(std::ostream& os, const B& b){
+    friend std::ostream& operator<<(std::ostream& os, const B& b){
 
     }
 
